@@ -4,6 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+No usar directamente en AnuglarCLI (a menos que estén creadas las variables de entorno), ya que las variables de entorno se crean basados en el .env
+
+## Pasos:
+1. Clonar el .env.template y renombrarlo a .env
+2. Llenar las variables de entorno acorde
+3. Crear Angular Envs (opcional)
+```
+npm run envs
+```
+
+4. Para deelopment ejecutar:
+
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
