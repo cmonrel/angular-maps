@@ -1,0 +1,15 @@
+<side-menu />
+
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-10">
+    <h1>Standalone Component - Page</h1>
+    <div class="row">
+      <div class="col">
+        <p>Este componente no necesita ser importado en módulos</p>
+        <p *ngIf="true">Es porque es su propio módulo - {{ 5 + 5 }}</p>
+      </div>
+      <counter-alone [counter]="25" />
+    </div>
+  </div>
+</div>

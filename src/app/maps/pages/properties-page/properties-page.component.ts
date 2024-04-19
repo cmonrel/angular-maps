@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 interface House {
   title: string;
   description: string;
@@ -35,4 +37,5 @@ export class PropertiesPageComponent {
       lngLat: [ -3.7112735618380177, 40.42567285425766 ]
     },
   ]
+
 }
